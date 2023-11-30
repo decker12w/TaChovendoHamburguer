@@ -1,0 +1,647 @@
+fileFormatVersion: 2
+guid: e0431ec9af26a004494a74aab74650dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 203
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607321d308d5d554e9ff128602cd4da0
+      internalID: 1435560680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 397
+        width: 178
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0351fb223a0f60642959e619e78a2a0e
+      internalID: 309210783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 397
+        width: 171
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f123c593973acfb47a03e50f64f79f63
+      internalID: 1261455815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 397
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c426658ac919b7459df6ea57625353c
+      internalID: 1217013956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 197
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb4f29e8037a0a43b1e4183adff619e
+      internalID: 481033503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 321
+        width: 172
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fde5c79ae8b2b4e9c067742ba0344e
+      internalID: 1715381412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 322
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60202fc04ed1c37499c6b12f6528a16d
+      internalID: -1917015511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 322
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fdd0aa8fd755f46a79a4c5fe3b20d9
+      internalID: 1563855706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 207
+        width: 169
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a1b7403fb13d1468ac9202749b9450
+      internalID: -1940360640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 247
+        width: 162
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0122e0c49a9ee44a14ef4deaffa454
+      internalID: 1482308236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 247
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a2d08e54807cd49af8798dcb1dba70
+      internalID: 1589178187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 247
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f74611b84ca8b48a52f29f454708e6
+      internalID: 1647354084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 172
+        width: 164
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7468b23e75f1e448bdc4b66b3dc7c16
+      internalID: 1743996892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 172
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd7485ccf928d4eb551ae70cdc712c
+      internalID: -1251727875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 172
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc3b19e6145b6c4daceac4d22703eee
+      internalID: -1996450621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 190
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03587cea124a51a4597d591426c8319d
+      internalID: -2079827190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 98
+        width: 185
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1015be1c3bf84247b04893d58f43a39
+      internalID: -1027612760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_18
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 97
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074ae3e719065454da8fc80180915cd4
+      internalID: -1487141569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_19
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 97
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7966bab4f41fd4da7fdeef727b0da8
+      internalID: -1756167449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 20
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5ac1955b5608945a68f6c1906bf88c
+      internalID: 1310579560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 20
+        width: 169
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0fc81de0f56944d9d8b7216f0caca8
+      internalID: 1914076482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 22
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587f11f52156b564ba434b81e3ad9bc3
+      internalID: 1068040314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captura de tela 2023-11-25 085843 (1)_23
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 22
+        width: 185
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913ba65cecfe88341b34128895846fca
+      internalID: 556734799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Captura de tela 2023-11-25 085843 (1)_0: 1435560680
+      Captura de tela 2023-11-25 085843 (1)_1: 309210783
+      Captura de tela 2023-11-25 085843 (1)_10: 1589178187
+      Captura de tela 2023-11-25 085843 (1)_11: 1647354084
+      Captura de tela 2023-11-25 085843 (1)_12: 1938455413
+      Captura de tela 2023-11-25 085843 (1)_13: 1743996892
+      Captura de tela 2023-11-25 085843 (1)_14: -1251727875
+      Captura de tela 2023-11-25 085843 (1)_15: -1996450621
+      Captura de tela 2023-11-25 085843 (1)_16: -2079827190
+      Captura de tela 2023-11-25 085843 (1)_17: -1027612760
+      Captura de tela 2023-11-25 085843 (1)_18: -1487141569
+      Captura de tela 2023-11-25 085843 (1)_19: -1756167449
+      Captura de tela 2023-11-25 085843 (1)_2: 1261455815
+      Captura de tela 2023-11-25 085843 (1)_20: 1310579560
+      Captura de tela 2023-11-25 085843 (1)_21: 1914076482
+      Captura de tela 2023-11-25 085843 (1)_22: 1068040314
+      Captura de tela 2023-11-25 085843 (1)_23: 556734799
+      Captura de tela 2023-11-25 085843 (1)_3: 1217013956
+      Captura de tela 2023-11-25 085843 (1)_4: 481033503
+      Captura de tela 2023-11-25 085843 (1)_5: 1715381412
+      Captura de tela 2023-11-25 085843 (1)_6: -1917015511
+      Captura de tela 2023-11-25 085843 (1)_7: 1563855706
+      Captura de tela 2023-11-25 085843 (1)_8: -1940360640
+      Captura de tela 2023-11-25 085843 (1)_9: 1482308236
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
