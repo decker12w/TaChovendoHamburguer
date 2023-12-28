@@ -6,6 +6,7 @@ TagManager:
   tags:
   - plate
   - food
+  - alface
   layers:
   - Default
   - TransparentFX

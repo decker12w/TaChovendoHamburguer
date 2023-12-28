@@ -7,7 +7,7 @@ public class IngredientsScript : MonoBehaviour
 {
 
     [SerializeField] private GameObject[] ingredients;
-    [SerializeField] private float secondsSpawn = 0.8f;
+    [SerializeField] private float secondsSpawn = 2f;
     [SerializeField] private float minTrans;
     [SerializeField] private float maxTrans;
 
