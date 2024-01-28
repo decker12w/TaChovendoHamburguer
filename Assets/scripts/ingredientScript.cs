@@ -21,7 +21,6 @@ public class IngredientScript : MonoBehaviour
             rb.isKinematic = true;
             rb.velocity = Vector2.zero;
             rb.transform.position = collision.transform.position;
-            Console.WriteLine("Colidiu com o prato");
         }
     }
 }

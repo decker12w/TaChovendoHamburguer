@@ -5,25 +5,32 @@
  public class GeradorDeReceita : MonoBehaviour
  {
      [SerializeField] private GameObject[] ingredientesPossiveis;
-     [SerializeField] private int minIngredientes = 2;
-     [SerializeField] private int maxIngredientes = 5;
+     [SerializeField] private int minIngredientes;
+     [SerializeField] private int maxIngredientes;
 
-     [SerializeField] public Receita receita;
+     private Receita receita;
 
      public Receita GerarReceitaAleatoria()
-     {
-         int quantidade = Random.Range(minIngredientes, maxIngredientes + 1);
-         Receita receita = gameObject.AddComponent<Receita>();
-         receita.Initialize(quantidade);
+{
+    int quantidade = Random.Range(minIngredientes, maxIngredientes + 1);
+    
+    // Verifica se já existe um componente Receita
+    Receita receita = gameObject.GetComponent<Receita>();
+    if (receita == null)
+    {
+        // Se não existir, adiciona um novo
+        receita = gameObject.AddComponent<Receita>();
+    }
 
-         for (int i = 0; i < quantidade; i++)
-         {
-             GameObject ingredienteAleatorio = ingredientesPossiveis[Random.Range(0, ingredientesPossiveis.Length)];
-             bool temElemento;
-             receita.AddIngrediente(ingredienteAleatorio, i, out temElemento);
-         }
+    receita.Initialize(quantidade);
 
-         return receita;
-        
-     }
+    for (int i = 0; i < quantidade; i++)
+    {
+        GameObject ingredienteAleatorio = ingredientesPossiveis[Random.Range(0, ingredientesPossiveis.Length)];
+        bool temElemento;
+        receita.AddIngrediente(ingredienteAleatorio, i, out temElemento);
+    }
+
+    return receita;
+}
  }

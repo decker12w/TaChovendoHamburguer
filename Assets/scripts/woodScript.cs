@@ -8,19 +8,24 @@ public class woodScript : MonoBehaviour
 
     private PlateScript plateScript;
     private Receita receita;
-    private GeradorDeReceita geradorDeReceita; // Add a reference to the GeradorDeReceita
+    private GeradorDeReceita geradorDeReceita; 
 
     private ScoreScript score;
     private Lifes lifes;
 
+    private Pilha pilha;
+    
+    void Awake(){
+        geradorDeReceita = GameObject.FindObjectOfType<GeradorDeReceita>(); 
+        receita = geradorDeReceita.GerarReceitaAleatoria();
+    }
     void Start()
     {
         plateScript = GameObject.FindObjectOfType<PlateScript>();
-        geradorDeReceita = GameObject.FindObjectOfType<GeradorDeReceita>(); // Find the GeradorDeReceita
         score = GameObject.FindObjectOfType<ScoreScript>(); 
         lifes = GameObject.FindObjectOfType<Lifes>(); 
-        receita = geradorDeReceita.GerarReceitaAleatoria(); // Generate a random recipe
-
+        
+        pilha = GameObject.FindObjectOfType<Pilha>();
         // Generate images based on the recipe
         for (int i = 0; i < receita.GetQuantidade(); i++)
         {
@@ -32,7 +37,7 @@ public class woodScript : MonoBehaviour
 {
     Sprite pickedSprite = pickedObject.GetComponent<SpriteRenderer>().sprite;
 
-    // Check if the picked object's sprite matches the current ingredient in the recipe
+   
     if (receita.ingredients[currentIndex].GetComponent<SpriteRenderer>().sprite == pickedSprite)
     {
         images[currentIndex].color = new Color(0, 1, 0, 1); // Change the image color to green
@@ -44,8 +49,10 @@ public class woodScript : MonoBehaviour
             Destroy(receita); // Destroy the current recipe
             plateScript.ClearPlate();
             receita = geradorDeReceita.GerarReceitaAleatoria(); // Generate a new random recipe
+            pilha.UpdateReceita(receita);
             GenerateElementsOnCanvas(); // Generate a new order
             score.AddScore(100);
+            
         }
     }
     else
@@ -54,8 +61,10 @@ public class woodScript : MonoBehaviour
         plateScript.ClearPlate(); // Clear the plate
         Destroy(receita); // Destroy the current recipe
         receita = geradorDeReceita.GerarReceitaAleatoria(); // Generate a new random recipe
+        pilha.UpdateReceita(receita);
         GenerateElementsOnCanvas(); // Generate a new order
         lifes.removeLife(1);
+      
     }
 }
 
