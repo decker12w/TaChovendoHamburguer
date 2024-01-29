@@ -21,10 +21,6 @@ public class Pilha : MonoBehaviour
         receita = geradorDeReceita.GetComponent<Receita>();
         ingredientes = new GameObject[receita.GetQuantidade()];
         topo = -1;
-        for (int i = 0; i < receita.GetQuantidade(); i++)
-        {
-            Debug.Log(receita.ingredients[i]);
-        }
     }
     public bool Cheia()
     {
@@ -43,8 +39,6 @@ public class Pilha : MonoBehaviour
         {
             return;
         }
-         if (topo + 1 < receita.GetQuantidade())
-         {
             bool temElemento;
             GameObject original = receita.GetIngrediente(topo + 1, out temElemento);
             if (temElemento && original.CompareTag(i.tag))
@@ -54,16 +48,9 @@ public class Pilha : MonoBehaviour
                 {
                     ingredientes[topo] = i;
                     deuCerto = true;
-                    Debug.Log("Empilhou");
                 }
             }
-            else
-            {
-                GameObject desempilhado;
-                bool ok;
-                Desempilha(out desempilhado, out ok);
-            }
-         }
+    
     }
 
     public void UpdateReceita(Receita novaReceita)
